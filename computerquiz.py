@@ -1,7 +1,7 @@
 def main():
     print("*** Kuiz Komputer ***") # Memaparkan tajuk
 
-    playing = input("Adakah anda berminat untuk sertai kuiz ini? ")
+    playing = input("Adakah anda berminat untuk sertai kuiz ini? Taip 'ya' untuk teruskan atau 'tidak' untuk keluar ")
 
     if playing.lower() != "ya": # Penggunaan .lower akan menukarkan secara automatik kepada huruf kecil
         quit()
